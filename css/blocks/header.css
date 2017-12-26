@@ -1,0 +1,125 @@
+.header {
+    background: #131415;  
+}
+
+.header__section {
+    float: left;
+    box-sizing: border-box;
+}
+
+.header__section_left {
+    width: 30%;
+    text-align: left;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+.header__section_center {
+    width: 40%;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 27px;
+}
+
+.header__section_right {
+    width: 30%;
+    text-align: right;
+    padding-top: 17px;
+    padding-bottom: 16px;
+}
+
+.logo {
+    font-family: 'gora_free';
+    font-size: 18px;  
+    color: #f89513;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.6px;
+}
+
+.nav__item {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 26px;
+}
+
+.nav__item:last-child {
+    margin-right: 0;
+}
+
+.nav__link {
+    text-decoration: none;
+    display: block;
+}
+
+.nav__text {
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.nav__icon {
+    width: 20px;
+    height: 18px;
+    margin-right: 16px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    vertical-align: middle;
+}
+
+.nav__icon_main {
+    background-image: url('/images/icons/main_icon.png')
+}
+
+.nav__icon_reviews {
+    background-image: url('/images/icons/reviews_icon.png')
+}
+
+.nav__icon_service {
+    background-image: url('/images/icons/service_icon.png')
+}
+
+.nav__link:hover .nav__text, .nav__link_active .nav__text {
+    color: #f89513;
+}
+
+.nav__link:hover .nav__icon_main, .nav__link_active .nav__icon_main {
+    background-image: url('/images/icons/main_icon_hover.png')
+}
+
+.nav__link:hover .nav__icon_reviews, .nav__link_active .nav__icon_reviews {
+    background-image: url('/images/icons/reviews_icon_hover.png')
+}
+
+.nav__link:hover .nav__icon_service, .nav__link_active .nav__icon_service {
+    background-image: url('/images/icons/service_icon_hover.png')
+}
+
+.contacts {
+    font-style: normal;
+}
+
+.contacts__phone {
+    font-weight: bold;
+    font-size: 21px;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 2px;
+}
+
+.contacts__schedule {
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(248, 149, 19, .7);
+    display: block;
+    margin-right: 3px;
+}
+
+.contacts__schedule:hover {
+    color: rgba(255, 255, 255, .7)
+}
+

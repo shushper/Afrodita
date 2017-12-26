@@ -1,0 +1,68 @@
+.feed__item-wrap {
+    border-bottom: 2px solid #f5f5f5;
+    display: inline-block;
+    padding-bottom: 21px;
+}
+
+.feed__item-wrap_reviews {
+    padding-bottom: 25px;
+}
+
+.feed__item {
+    margin-bottom: 27px;
+}
+
+.feed__item:last-child {
+    margin-bottom: 0;
+}
+
+.feed__item:last-child .feed__item-wrap {
+    border-bottom: none;
+}
+
+.feed__avatar {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    overflow: hidden;
+    float: left;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+}
+
+.feed__text {
+    float: left;
+}
+
+.feed__text_news {
+    width: 650px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.feed__text_reviews {
+    width: 700px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.feed__data {
+    font-size: 14px;
+    font-weight: 300;
+    color: #656464;
+    margin-bottom: 6px;
+}
+
+.feed__caption {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.feed__content {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.66;
+}
+
+.feed__content_reviews {
+    line-height: 1.67;
+}

@@ -1,0 +1,55 @@
+.pagination {
+    text-align: center;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.pagination__main {
+    padding-top: 45px;
+    padding-bottom: 67px;
+}
+
+.pagination__reviews {
+    padding-top: 24px;
+    padding-bottom: 61px;
+}
+
+.pagination__info, .pagination__controls, .pagination__button, .pagination__list, .pagination__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pagination__info {
+    font-weight: 300;
+    color: #656464;
+    margin-right: 20px;
+}
+
+.pagination__button {
+    text-decoration: none;
+}
+
+.pagination__list {
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.pagination__page {
+    font-weight: bold;
+    display: block;
+    width: 25px;
+    line-height: 25px;
+    text-align: center;
+    color: #221f1f;
+    text-decoration: none;
+}
+
+.pagination__page_active {
+    background: #131415;
+    color: #f89513;
+    border-radius: 3px;
+}
+
+.pagination__page:hover {
+    color: #f89513;
+}

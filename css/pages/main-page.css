@@ -1,0 +1,137 @@
+.banner {
+    padding-top: 78px;
+    padding-bottom: 58px;
+}
+
+.banner__image {
+    height: 487px;
+    background: white;
+    background: url('/images/bg/banner.png') center center no-repeat;
+}
+
+.features {
+    background: #131415;
+    color: white;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.features__list {
+    width: 740px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 43px;
+    margin-top: 55px;
+}
+
+.features__item {
+    float: left;
+    vertical-align: top;
+    width: 200px;
+    margin-right: 70px
+}
+
+.features__item:last-child {
+    margin-right: 0px;
+}
+
+.features__icon {
+    width: 68px;
+    height: 68px;
+    background: #f89513;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.features__icon_flower {
+    background-image: url('/images/icons/feature_flower.png')
+}
+
+.features__icon_star {
+    background-image: url('/images/icons/feature_star.png')
+}
+
+.features__icon_palette {
+    background-image: url('/images/icons/feature_palette.png')
+}
+
+.features__caption {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 21px;
+    text-align: center;
+    letter-spacing: 2.5px;
+}
+
+.features__info {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.features__summary {
+    text-align: center;
+    margin-bottom: 3px;
+    letter-spacing: -0.2px;
+    line-height: 1.7;
+}
+
+.features__theses {
+    list-style: disc inside;
+    line-height: 1.9;
+} 
+
+.news {
+    color: #221f1f;
+    padding-top: 58px;
+}
+
+.feed {
+    margin-top: 70px;
+    width: 880px;
+    float: left;
+}
+
+.topnews {
+    margin-left: 20px;
+    width: 160px;
+    float: left;
+}
+
+.topnews__title, .topnews__subtitle {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+}
+
+.topnews__title {
+    margin-bottom: 9px;
+}
+
+.topnews__subtitle {
+    color: #656464;
+    margin-bottom: 22px;
+}
+
+.topnews__image {
+    width: 160px;
+    height: 160px;
+    opacity: 0.8;
+    overflow: hidden;
+    background-repeat: no-repeat;
+}
+
+.topnews__item {
+    margin-bottom: 20px;
+}
+
+.topnews__item:last-child {
+    margin-bottom: none;
+}
+
