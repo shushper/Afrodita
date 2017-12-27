@@ -40,3 +40,9 @@ ul {
     margin: 0 auto;
     width: 1060px;
 }
+
+.content__container {
+    width: 880px;
+    margin: 0 auto;
+}
+

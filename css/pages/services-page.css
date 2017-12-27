@@ -1,0 +1,115 @@
+ .services__content {
+    margin-top: 40px;
+}
+
+.services__list {
+    margin: 0 -32px;
+}
+
+.services__item {
+    width: 250px;
+    float: left;
+    padding: 0 32px;
+    margin-bottom: 44px;
+}
+
+.services__image {
+    width: 100%;
+    height: 153px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.services__image-cover {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+    opacity: 0.52;
+}
+
+.services__image-title {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+}
+
+.services__desc {
+    margin-top: 25px;
+    color: #221f1f;
+}
+
+.services__desc-caption {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.services__desc-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 7px;
+}
+
+.partners {
+    margin-top: -22px; /* just for pixel perfect */
+}
+
+.partners__list {
+    margin: 53px -25px;
+}
+
+.partners__item {
+    float: left;
+    width: 300px;
+    padding: 0px 4px;
+}
+
+.partners__icon {
+    width: 100%;
+    height: 115px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%)
+}
+
+.partners__icon:hover {
+    filter: grayscale(0%)
+}
+
+.partners__link {
+    display: block;
+}
+
+.partners__icon_flamingo {
+    background-image: url('/images/icons/logo_flamingo.png')
+}
+
+.partners__icon_malibu {
+    background-image: url('/images/icons/logo_malibu.png')
+}
+
+.partners__icon_lion {
+    background-image: url('/images/icons/logo_lion.png')
+}
+
+.partners__icon_arni {
+    background-image: url('/images/icons/logo_arni.png')
+}
+
+.partners__icon_grif {
+    background-image: url('/images/icons/logo_grif.png')
+}
+
+.partners__icon_atletics {
+    background-image: url('/images/icons/logo_atletics.png')
+}
+
