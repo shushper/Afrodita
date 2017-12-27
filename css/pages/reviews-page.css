@@ -81,7 +81,7 @@
 .form__field-input, .form__textarea {
     border: 1px solid;
     border-color: #ffffff;
-    transition: border-color 1s;
+    transition: border-color 300ms;
     box-sizing: border-box;
     width: 100%;
 }
@@ -92,7 +92,6 @@
 .form__textarea:focus {
     border: 1px solid;
     border-color: #f79311;
-    transition: border-color 1s;
     outline: none;
 }
 
@@ -135,7 +134,6 @@
 
 .form__radio {
     display: none;
-    
 }
 
 .form__radio-title::before {
@@ -159,7 +157,7 @@
 .form__radio-title:hover,
 .form__radio:checked + .form__radio-title {
     color: #f79311;
-    transition: color 1s;
+    transition: color 300ms;
 }
 
 .form__btn-send {
@@ -173,7 +171,7 @@
     border-radius: 3px;
     letter-spacing: 1.3px;
     outline: none;
-    transition: background-color 1s;
+    transition: background-color 300ms;
 }
 
 .form__btn-send:hover {

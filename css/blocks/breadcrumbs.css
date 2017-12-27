@@ -29,9 +29,12 @@
     font-style: italic;
     color: #f89513;
     opacity: 0.8;
+    transition: color 300ms;
 }
 
-.breadcrumbs__item_active .breadcrumbs__item-link {
+.breadcrumbs__item_active .breadcrumbs__item-link,
+.breadcrumbs__item:hover .breadcrumbs__item-link {
     color: #221f1f;
     text-decoration: none;
 }
+

@@ -58,6 +58,7 @@
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
+    transition: color 300ms;
 }
 
 .nav__link:hover .nav__text, .nav__link_active .nav__text {
@@ -84,6 +85,10 @@
 
 .nav__icon_service {
     background-position: -100px 0px;
+}
+
+.nav__link:hover .nav__icon {
+    animation: nav-icon 300ms forwards;
 }
 
 .nav__link:hover .nav__icon_main, .nav__link_active .nav__icon_main {
@@ -117,6 +122,7 @@
     color: rgba(248, 149, 19, .7);
     display: block;
     margin-right: 3px;
+    transition: color 300ms;
 }
 
 .contacts__schedule:hover {

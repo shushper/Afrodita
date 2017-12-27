@@ -42,6 +42,7 @@
     text-align: center;
     color: #221f1f;
     text-decoration: none;
+    transition: color 300ms;
 }
 
 .pagination__page_active {

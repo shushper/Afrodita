@@ -80,7 +80,8 @@
     border-radius: 50%;
     background-color: #d0d0d0;
     background-repeat: no-repeat;
-    background-image: url('/images/sprites/social.png')
+    background-image: url('/images/sprites/social.png');
+    transition: background-color 300ms;
 }
 
 .footer__social-item:hover .footer__social-icon {
