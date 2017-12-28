@@ -41,22 +41,22 @@
     background: #f89513;
     border-radius: 50%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('/images/sprites/features.png');
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px;
 }
 
 .features__icon_flower {
-    background-image: url('/images/icons/feature_flower.png')
+    background-position: 0px 0px;
 }
 
 .features__icon_star {
-    background-image: url('/images/icons/feature_star.png')
+    background-position: -100px 0px;
 }
 
 .features__icon_palette {
-    background-image: url('/images/icons/feature_palette.png')
+    background-position: -200px 0px;
 }
 
 .features__caption {

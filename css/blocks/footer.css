@@ -80,7 +80,9 @@
     border-radius: 50%;
     background-color: #d0d0d0;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('/images/sprites/social.png');
+    transition: background-color 300ms;
+    -webkit-transition: background-color 300ms;
 }
 
 .footer__social-item:hover .footer__social-icon {
@@ -89,21 +91,21 @@
 
 
 .footer__social-icon_vk {
-    background-image: url('/images/icons/social_vk.png');
+    background-position: 0px 0px;
 }
 
 .footer__social-icon_fb {
-    background-image: url('/images/icons/social_fb.png');
+    background-position: -50px 0px;
 }
 
 .footer__social-icon_google {
-    background-image: url('/images/icons/social_google.png');
+    background-position: -100px 0px;
 }
 
 .footer__social-icon_twitter {
-    background-image: url('/images/icons/social_twitter.png');
+    background-position: -150px 0px;
 }
 
 .footer__social-icon_mail {
-    background-image: url('/images/icons/social_mail.png');
+    background-position: -200px 0px;
 }

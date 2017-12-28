@@ -8,7 +8,9 @@
 @import url('./blocks/title.css');
 @import url('./blocks/feed.css');
 @import url('./blocks/pagination.css');
+@import url('./blocks/breadcrumbs.css');
 
 /* Страницы */
 @import url('./pages/main-page.css');
 @import url('./pages/reviews-page.css');
+@import url('./pages/services-page.css');

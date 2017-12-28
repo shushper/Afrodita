@@ -58,6 +58,12 @@
     font-weight: bold;
     text-transform: uppercase;
     display: inline-block;
+    transition: color 300ms;
+    -webkit-transition: color 300ms;
+}
+
+.nav__link:hover .nav__text, .nav__link_active .nav__text {
+    color: #f89513;
 }
 
 .nav__icon {
@@ -66,36 +72,36 @@
     margin-right: 16px;
     display: inline-block;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-image: url('/images/sprites/nav.png');
     vertical-align: middle;
 }
 
 .nav__icon_main {
-    background-image: url('/images/icons/main_icon.png')
+    background-position: 0 0;
 }
 
 .nav__icon_reviews {
-    background-image: url('/images/icons/reviews_icon.png')
+    background-position: -50px 0px;
 }
 
 .nav__icon_service {
-    background-image: url('/images/icons/service_icon.png')
+    background-position: -100px 0px;
 }
 
-.nav__link:hover .nav__text, .nav__link_active .nav__text {
-    color: #f89513;
+.nav__link:hover .nav__icon {
+    animation: nav-icon 300ms forwards;
 }
 
 .nav__link:hover .nav__icon_main, .nav__link_active .nav__icon_main {
-    background-image: url('/images/icons/main_icon_hover.png')
+    background-position: 0 -50px;
 }
 
 .nav__link:hover .nav__icon_reviews, .nav__link_active .nav__icon_reviews {
-    background-image: url('/images/icons/reviews_icon_hover.png')
+    background-position: -50px -50px;
 }
 
 .nav__link:hover .nav__icon_service, .nav__link_active .nav__icon_service {
-    background-image: url('/images/icons/service_icon_hover.png')
+    background-position: -100px -50px;
 }
 
 .contacts {
@@ -115,11 +121,76 @@
     font-weight: bold;
     font-size: 14px;
     color: rgba(248, 149, 19, .7);
-    display: block;
     margin-right: 3px;
+    transition: color 300ms;
+    -webkit-transition: color 300ms;
+    position: relative;
+    display: inline-block;
+}
+
+.schedule__dropdown {
+    width: 162px;
+    padding: 15px 18px;
+    background: #ffffff;
+    opacity: 0.95;
+    border-radius: 4px;
+    position: absolute;
+    right: 9999px;
+    top: 100%;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(23, 59, 117, .55);
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+.contacts__schedule:hover .schedule__dropdown {
+    right: 0;
 }
 
 .contacts__schedule:hover {
     color: rgba(255, 255, 255, .7)
 }
+
+.schedule__dropdown::before {
+    content: "";
+    display: block;
+    height: 20px;
+    left: 0;
+    right: 0;
+    top: -20px;
+    position: absolute; 
+}
+
+.schedule__dropdown-triangle{
+    border-top: 0px solid transparent;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #ffffff;
+    opacity: 0.95;
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    bottom: 100%;
+    right: 10px;
+}
+
+.schedule__dropdown-days, .schedule__dropdown-dinner {
+    text-align: left;
+}
+
+.schedule__dropdown-days {
+    color: #f89513;
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.schedule__dropdown-dinner {
+    color: #221f1f;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+
 
