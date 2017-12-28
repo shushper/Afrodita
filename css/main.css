@@ -10,7 +10,11 @@
 @import url('./blocks/pagination.css');
 @import url('./blocks/breadcrumbs.css');
 
+/* Анимации */
+@import url('./animation/intro.css');
+
 /* Страницы */
+@import url('./pages/index-page.css');
 @import url('./pages/main-page.css');
 @import url('./pages/reviews-page.css');
 @import url('./pages/services-page.css');
