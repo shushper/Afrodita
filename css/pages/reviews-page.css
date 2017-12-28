@@ -82,6 +82,7 @@
     border: 1px solid;
     border-color: #ffffff;
     transition: border-color 300ms;
+    -webkit-transition: border-color 300ms;
     box-sizing: border-box;
     width: 100%;
 }
@@ -129,7 +130,8 @@
     color: #221f1f;
     font-weight: 300;
     font-size: 14px;
-    transition: color 1s;
+    transition: color 300ms;
+    -webkit-transition: color 300ms;
 }
 
 .form__radio {
@@ -158,6 +160,7 @@
 .form__radio:checked + .form__radio-title {
     color: #f79311;
     transition: color 300ms;
+    -webkit-transition: color 300ms;
 }
 
 .form__btn-send {
@@ -172,6 +175,7 @@
     letter-spacing: 1.3px;
     outline: none;
     transition: background-color 300ms;
+    -webkit-transition: background-color 300ms;
 }
 
 .form__btn-send:hover {

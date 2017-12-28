@@ -59,6 +59,7 @@
     text-transform: uppercase;
     display: inline-block;
     transition: color 300ms;
+    -webkit-transition: color 300ms;
 }
 
 .nav__link:hover .nav__text, .nav__link_active .nav__text {
@@ -122,6 +123,7 @@
     color: rgba(248, 149, 19, .7);
     margin-right: 3px;
     transition: color 300ms;
+    -webkit-transition: color 300ms;
     position: relative;
     display: inline-block;
 }

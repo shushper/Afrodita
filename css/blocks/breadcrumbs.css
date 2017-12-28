@@ -30,6 +30,7 @@
     color: #f89513;
     opacity: 0.8;
     transition: color 300ms;
+    -webkit-transition: color 300ms;
 }
 
 .breadcrumbs__item_active .breadcrumbs__item-link,

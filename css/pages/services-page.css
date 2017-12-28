@@ -80,6 +80,7 @@
     background-repeat: no-repeat;
     filter: grayscale(100%);
     transition: filter 300ms;
+    -webkit-transition: filter 300ms;
 }
 
 .partners__icon:hover {
